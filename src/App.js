@@ -30,7 +30,7 @@ let [count2, setCount2] = useState(0)
 
           {/* TODO STEP 4 - Now we need to attach our state setter functions to click listeners. */}
           <button className="homeButtons__touchdown" onClick = {() => {
-            setCount(count + 7)
+            setCount(count + 6 +1)
           }}>Home Touchdown</button>
           <button className="homeButtons__fieldGoal" onClick = {() => {
             setCount(count + 3)
@@ -38,7 +38,7 @@ let [count2, setCount2] = useState(0)
         </div>
         <div className="awayButtons">
           <button className="awayButtons__touchdown" onClick = {() => {
-            setCount2(count2 + 7)
+            setCount2(count2 + 6 +1)
           }}
           >Away Touchdown</button>
           <button className="awayButtons__fieldGoal" onClick = {() => {
